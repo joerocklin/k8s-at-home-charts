@@ -1,0 +1,19 @@
+apiVersion: v2
+appVersion: 0.9.42
+description: nocodb helm package
+name: nocodb
+version: 0.0.1
+kubeVersion: ">=1.16.0-0"
+keywords:
+- nocodb
+home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/nocodb
+icon: https://nocodb.org/icon
+sources:
+- https://github.com/nocodb/nocodb
+maintainers:
+- name: Joe Rocklin
+  email: joe.rocklin@gmail.com
+dependencies:
+- name: common
+  repository: https://library-charts.k8s-at-home.com
+  version: 3.2.0
